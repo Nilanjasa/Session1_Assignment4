@@ -1,0 +1,15 @@
+class Expressions
+{
+  public static void main(String[]args)
+    {
+      int x=5,y=10;
+      int exp1= x + y * 2;//25
+      int exp2= x - y + 2;//-3    
+      int exp3= (x+y) * 2;//30
+      int exp4= y % x;//0
+      System.out.println(exp1);
+      System.out.println(exp2);
+      System.out.println(exp3);
+      System.out.println(exp4);
+   }
+}
